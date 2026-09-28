@@ -4,17 +4,23 @@ body{
     margin: 0px;
     padding: 0px;
 }
+:root {
+    --altura-nav: 130px;
+}
 a{
     text-decoration: none;
     color: inherit;
 }
 /* barra de navegacion  */
+.probando{
+    height: 100px;
+}
 .barra-nav {
     padding: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: sticky;    
+    position: fixed;    
     width: 100%;
     box-sizing: border-box;
     background-color: #0F4C5C;
@@ -105,6 +111,7 @@ h4, h3 ,h2 {
  .destinos{
     text-align: center;
     color:#344E52 ;
+    scroll-margin-top:  var(--altura-nav);
 }
 .grid-card{
     display: grid;
@@ -138,6 +145,9 @@ h4, h3 ,h2 {
 } */
  
 /*Actividades Turisticas*/
+.section-pricipal{
+    scroll-margin-top:  var(--altura-nav);
+}
 .actividades{
     display: flex;
     flex-direction: column;
@@ -147,6 +157,7 @@ h4, h3 ,h2 {
     margin: 10px;
     border-radius: 10px;
     background-color: #F7F5F0;
+    
 }
 .actividades h2{
     margin: 10px 10px 0px 10px;
@@ -225,8 +236,10 @@ button {
 
 }
 /*informacion util */
-
-.informacion{
+#informacion{
+     scroll-margin-top: var(--altura-nav);
+}
+/* .informacion{
     text-align: center;
     gap: 2rem;
     width: 200px;
@@ -235,7 +248,8 @@ button {
     border: 1px solid #0F4C5C;
     border-radius: 10px;
     margin: 10px 0;
-}
+    scroll-margin-top: 120px;
+} */
 .informacion-card {
     border-radius: 10px;
     margin: 10px;
