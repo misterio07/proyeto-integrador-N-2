@@ -1,0 +1,278 @@
+
+body{
+    background-color: #F7F5F0;
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+/* barra de navegacion  */
+.barra-nav {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: sticky;    
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #0F4C5C;
+   
+}
+
+.img-logo {
+    display: flex;
+    justify-content: flex-start;
+    width: 45px;
+    height: 45px;
+    border:solid 1px rgba(255, 255, 255, 0.473);
+    border-radius: 50%;
+    background-color: #3c9c91;
+     
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    
+    justify-content: space-around;
+    padding: 10px;
+}
+
+nav a {
+    font-size: 16px;
+    color: #FFFFFF;
+}
+nav a:hover {
+    color: #F4A261;
+}
+/* header */
+header img{
+    width: 100%;
+}
+header {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    min-height: 200px;  
+    justify-content: space-between; 
+   /*  background-image: url("/img/familia-con-los-niños-el-vacaciones-de-la-playa-56161631.webp");  */
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+        url("/img/familia-con-los-niños-el-vacaciones-de-la-playa-56161631.webp");
+    background-size: cover; 
+    background-position: center;  
+    color: #f4f6f7;
+}
+header h1 {
+    color: #f4f6f7;
+
+}
+hr{
+    margin: 20px;
+    width: 90%;
+    
+}
+/* section principal*/
+
+h4, h3 ,h2 {
+    
+    text-align: center;
+    color:#163A43;
+    
+}
+.section-i-p{
+    text-align: center;
+}
+.section-i img{
+    
+    width: 90%;
+   border: 1px solid rgba(12, 12, 12, 0.562) ;
+    border-radius: 12px;
+}
+.section-p{
+    color: #344E52;
+    margin: 10px;    
+}
+
+.section-p button{
+    display: block;
+    margin-left:auto ;
+    
+}
+/* Section Destinos Destacados*/
+ .destinos{
+    text-align: center;
+    color:#344E52 ;
+}
+.grid-card{
+    display: grid;
+    justify-items: center;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    gap:1rem;
+    margin: auto;
+    
+ } 
+ 
+.card{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: auto;
+    height: 300px;
+    padding: 5px;
+    border: 1px solid rgba(12, 12, 12, 0.562) ;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.10);
+} 
+.card img{
+    min-height: 133px;   
+    border-radius: 5px;
+    width: 100%;
+} 
+/* .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+} */
+ 
+/*Actividades Turisticas*/
+.actividades{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #0F4C5C;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #F7F5F0;
+}
+.actividades h2{
+    margin: 10px 10px 0px 10px;
+    padding: 10px 10px 0px 10px;
+}
+.actividades-card{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 1rem;
+    
+    color: #f4f6f7; 
+}
+.actividades-card div{
+   border: 1px solid;
+   margin: 10px;
+   padding: 10px;
+   border-radius: 10px;
+}
+ .actividades-card h3{
+    color: #eff2f3;
+    
+    text-shadow:
+        2px 0 #0F4C5C,
+        -2px 0 #0F4C5C,
+        0 2px #0F4C5C,
+        0 -2px #0F4C5C;
+} 
+button {
+    width: auto;
+    border-radius: 12px;
+    border-color: #163A43;
+    background-color: #2A9D8F;
+    color: white;
+}
+/* button:hover {
+    background-color: #217C70;
+} */
+/*Actividades Turisticas*/
+.trekking{
+     
+    background-image: linear-gradient(rgba(0, 0, 0, 0.349), rgba(0, 0, 0, 0.35)),
+        url("/img/trekking.avif");
+    background-size: cover; 
+    background-position: center;  
+     
+}
+.kayak{
+     background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+        url("/img/kayak2.avif");
+    background-size: cover; 
+    background-position: center;  
+     
+}
+.ciclismo{
+     background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+        url("/img/ciclismo.webp");
+    background-size: cover; 
+    background-position: center;  
+     
+}
+.cabalgatas{
+     background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+        url("/img/cabalgata.avif");
+    background-size: cover; 
+    background-position: center;  
+    
+     
+}
+/* .ciclismo:hover,.trekking:hover,.kayak:hover,.cabalgatas:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+} */
+.actividades-card a {
+    
+    text-decoration: none;
+
+}
+/*informacion util */
+
+.informacion{
+    text-align: center;
+    gap: 2rem;
+    width: 200px;
+    height:auto;
+    padding: 5px;
+    border: 1px solid #0F4C5C;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+.informacion-card {
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #0F4C5C;
+
+}
+.informacion-card p{
+    text-align: center;
+    color:#163A43;
+}
+/*footer*/
+footer{
+     background-color: #0F4C5C;
+}
+.pie{
+    padding: 20px 0px; ;
+    
+    text-align: center;
+}
+.pie p{
+    margin: 10px;
+}
+svg{
+    margin: 5px;
+}
+.redes-sociales{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+/*
+🔵 #0F4C5C → navbar
+🟢 #2A9D8F → botones/acento
+🟡 #F4A261 → detalles
+🏖️ #F7F5F0 → fondo
+⚪ #FFFFFF → cards
+🌑 #163A43 → títulos
+*/
