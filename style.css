@@ -73,7 +73,7 @@ header {
    /*  background-image: url("/img/familia-con-los-niños-el-vacaciones-de-la-playa-56161631.webp");  */
     background-image: 
         linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
-        url("/proyeto-integrador-N-2/img/familia-con-los-niños-el-vacaciones-de-la-playa-56161631.webp");
+        url("/familia-con-los-niños-el-vacaciones-de-la-playa-56161631.webp");
     background-size: cover; 
     background-position: center;  
     color: #f4f6f7;
@@ -208,28 +208,28 @@ button {
 .trekking{
      
     background-image: linear-gradient(rgba(0, 0, 0, 0.349), rgba(0, 0, 0, 0.35)),
-        url("/proyeto-integrador-N-2/img/trekking.avif");
+        url("/img/trekking.avif");
     background-size: cover; 
     background-position: center;  
      
 }
 .kayak{
      background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
-        url("/proyeto-integrador-N-2/img/kayak2.avif");
+        url("/img/kayak2.avif");
     background-size: cover; 
     background-position: center;  
      
 }
 .ciclismo{
      background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
-        url("/proyeto-integrador-N-2/img/ciclismo.webp");
+        url("/img/ciclismo.webp");
     background-size: cover; 
     background-position: center;  
      
 }
 .cabalgatas{
      background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
-        url("/proyeto-integrador-N-2/img/cabalgata.avif");
+        url("/img/cabalgata.avif");
     background-size: cover; 
     background-position: center;  
     
