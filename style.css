@@ -1,4 +1,11 @@
-
+/*
+ #0F4C5C → navbar
+ #2A9D8F → botones/acento
+ #F4A261 → detalles
+ #F7F5F0 → fondo
+ #FFFFFF → cards
+ #163A43 → títulos
+*/
 body{
     background-color: #F7F5F0;
     margin: 0px;
@@ -363,11 +370,3 @@ svg{
         height: 250px;
     }
 }
-/*
-🔵 #0F4C5C → navbar
-🟢 #2A9D8F → botones/acento
-🟡 #F4A261 → detalles
-🏖️ #F7F5F0 → fondo
-⚪ #FFFFFF → cards
-🌑 #163A43 → títulos
-*/
