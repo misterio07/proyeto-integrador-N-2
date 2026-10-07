@@ -12,7 +12,7 @@ a{
     color: inherit;
 }
 /* barra de navegacion  */
-.probando{
+.espacioNav{
     height: 100px;
 }
 .barra-nav {
@@ -66,7 +66,7 @@ header {
    /*  background-image: url("/img/familia-con-los-niños-el-vacaciones-de-la-playa-56161631.webp");  */
     background-image: 
         linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
-        url("/img/familia-con-los-niños-el-vacaciones-de-la-playa-56161631.webp");
+        url("/proyeto-integrador-N-2/img/familia-con-los-niños-el-vacaciones-de-la-playa-56161631.webp");
     background-size: cover; 
     background-position: center;  
     color: #f4f6f7;
@@ -94,7 +94,7 @@ h4, h3 ,h2 {
 .section-i img{
     
     width: 90%;
-   border: 1px solid rgba(12, 12, 12, 0.562) ;
+    border: 1px solid rgba(12, 12, 12, 0.562) ;
     border-radius: 12px;
 }
 .section-p{
@@ -126,10 +126,10 @@ h4, h3 ,h2 {
 .card{
     display: flex;
     flex-direction: column;
-    margin: 10px;
-    width: auto;
+    margin: 10px; 
+    /* width: auto; */
     height: 300px;
-    padding: 5px;
+    padding: 5px; 
     border: 1px solid rgba(12, 12, 12, 0.562) ;
     border-radius: 10px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.10);
@@ -138,6 +138,7 @@ h4, h3 ,h2 {
     min-height: 133px;   
     border-radius: 5px;
     width: 100%;
+    object-fit: cover;
 } 
 /* .card:hover {
     transform: translateY(-5px);
@@ -152,7 +153,7 @@ h4, h3 ,h2 {
     display: flex;
     flex-direction: column;
     border: 1px solid #0F4C5C;
-    align-items: center;
+    align-items: stretch; 
     justify-content: center;
     margin: 10px;
     border-radius: 10px;
@@ -171,10 +172,11 @@ h4, h3 ,h2 {
     color: #f4f6f7; 
 }
 .actividades-card div{
-   border: 1px solid;
-   margin: 10px;
-   padding: 10px;
-   border-radius: 10px;
+    border: 1px solid;
+    margin: 10px; 
+    gap: 10rem;
+    padding: 10px;
+    border-radius: 10px;
 }
  .actividades-card h3{
     color: #eff2f3;
@@ -199,37 +201,34 @@ button {
 .trekking{
      
     background-image: linear-gradient(rgba(0, 0, 0, 0.349), rgba(0, 0, 0, 0.35)),
-        url("/img/trekking.avif");
+        url("/proyeto-integrador-N-2/img/trekking.avif");
     background-size: cover; 
     background-position: center;  
      
 }
 .kayak{
      background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
-        url("/img/kayak2.avif");
+        url("/proyeto-integrador-N-2/img/kayak2.avif");
     background-size: cover; 
     background-position: center;  
      
 }
 .ciclismo{
      background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
-        url("/img/ciclismo.webp");
+        url("/proyeto-integrador-N-2/img/ciclismo.webp");
     background-size: cover; 
     background-position: center;  
      
 }
 .cabalgatas{
      background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
-        url("/img/cabalgata.avif");
+        url("/proyeto-integrador-N-2/img/cabalgata.avif");
     background-size: cover; 
     background-position: center;  
     
      
 }
-/* .ciclismo:hover,.trekking:hover,.kayak:hover,.cabalgatas:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-} */
+
 .actividades-card a {
     
     text-decoration: none;
@@ -237,25 +236,20 @@ button {
 }
 /*informacion util */
 #informacion{
-     scroll-margin-top: var(--altura-nav);
+    scroll-margin-top: var(--altura-nav);
+    
 }
-/* .informacion{
-    text-align: center;
-    gap: 2rem;
-    width: 200px;
-    height:auto;
-    padding: 5px;
-    border: 1px solid #0F4C5C;
-    border-radius: 10px;
-    margin: 10px 0;
-    scroll-margin-top: 120px;
-} */
+.informacion-grid{
+    display: grid; /**/
+    gap: 1rem;
+}
 .informacion-card {
+
     border-radius: 10px;
     margin: 10px;
     padding: 10px;
     border: 1px solid #0F4C5C;
-
+ 
 }
 .informacion-card p{
     text-align: center;
@@ -281,6 +275,93 @@ svg{
     justify-content: center;
     align-items: center;
     margin: 5px;
+}
+
+@media (min-width: 768px) {
+    :root {
+    --altura-nav: 100px;
+    }
+    .espacioNav{
+        height: 67px;
+    }
+    .barra-nav {
+         flex-direction: row; 
+         justify-content: space-between; 
+    }
+    nav {
+         width: auto; 
+    }
+    nav a {
+         margin: 0 10px; 
+    }
+    .section {
+        margin: 20px;
+    }
+    .section-i-p{
+        display: flex;
+        text-align: start;
+          margin: 20px; 
+    }
+    .section-i img{
+        margin-right: 20px;
+        width: 200px;
+    
+    }
+    .section-i{
+        margin: 20px;
+        
+    } 
+    .grid-card{
+        grid-template-columns: repeat(3, 1fr);
+        
+    }
+    .card{
+        min-width: 200px;
+        
+    }
+    .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    } 
+    .ciclismo:hover,.trekking:hover,.kayak:hover,.cabalgatas:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    } 
+    button:hover {
+        background-color: #217C70;
+    }
+    .actividades-card  {
+        grid-template-columns: repeat(2, 1fr);
+        
+        margin-bottom: 40px;
+    }
+    .actividades-card div{
+       /*  min-width: 300px; */
+        height: 200px;
+    }
+    .informacion-grid{
+          grid-template-columns: repeat(3, 1fr);/**/
+    }
+}
+@media (min-width: 1024px) {
+    .grid-card{
+        grid-template-columns: repeat(4, 1fr);
+        
+    }
+
+    .card{
+        min-width: 200px;
+        
+    }
+    .actividades-card  {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1rem;
+        margin-bottom: 40px;
+    }
+     .actividades-card div{
+       /*  min-width: 250px; */
+        height: 250px;
+    }
 }
 /*
 🔵 #0F4C5C → navbar
