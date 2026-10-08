@@ -70,7 +70,7 @@ header {
     flex-direction: column;
     min-height: 200px;  
     justify-content: space-between; 
-   /*  background-image: url("/img/familia-con-los-niños-el-vacaciones-de-la-playa-56161631.webp");  */
+    /* background-image: url("/img/familia-con-los-niños-el-vacaciones-de-la-playa-56161631.webp");  */
     background-image: 
         linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
         url("/img/familia-con-los-niños-el-vacaciones-de-la-playa-56161631.webp");
