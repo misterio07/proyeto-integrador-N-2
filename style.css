@@ -200,6 +200,7 @@ button {
     border-color: #163A43;
     background-color: #2A9D8F;
     color: white;
+    margin: 10px;
 }
 /* button:hover {
     background-color: #217C70;
